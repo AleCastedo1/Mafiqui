@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Eformulario.css">
+    <title>MAFIQUI</title>
+</head>
+<body>
+    <header>
+        <H1>MAFIQUI</H1>
+        <img src="simbolosm.png">
+        <div id="contenedor">
+             
+            <nav>
+                </br>
+                <a href="Eindex.html">Home</a>
+                <a href="Ehome.html">Nosotros</a>
+                <a href="Eservicio.html">Servicio</a>
+                <a href="Eformulario.html">Contacto</a>
+                 
+            </nav>
+        </div>
+    </header>
+    <article>
+        <h1>CONTACTO</h1>
+        <form action="">
+            <p id="nombre">
+                <label for="nombre">NOMBRE Y APELLIDO:</label></br>
+                <input type="text" name="nombre" id="nombrejs" placeholder="Nombre de usuario" required autocomplete>
+                <span id="ayudaNombre"></span>
+            </p>
+            <p id="email">
+                <label for="email">EMAIL:</label></br>
+                <input type="text" name="email" id="emailjs"  placeholder="Email" required autocomplete>
+                <span id="ayudaEmail"></span>
+            </p>
+            <p id="asunto">
+                <label for="asunto">ASUNTO:</label></br>
+                <input type="text" name="asunto" id="asuntojs"  placeholder="Asunto" required autocomplete>
+                <span id="ayudaAsunto"></span>
+            </p>
+            <p id="ciudad">
+                <label for="">¿DE DÓNDE NOS ESCRIBES?: </label>
+                <select name="ciudades" id="ciudades">
+                    <option value="SANTA CRUZ" selected>SANTA CRUZ</option>
+                    <option value="BENI">BENI</option>
+                    <option value="COCHABAMBA">COCHABAMBA</option>
+                    <option value="LA PAZ" >LA PAZ</option>
+                    <option value="SUCRE" >SUCRE</option>
+                    <option value="ORURO" >ORURO</option>
+                    <option value="TARIJA" >TARIJA</option>
+                    <option value="POTOSÍ" >POTOSÍ</option>
+                </select>
+            </p>
+            <div id="mensaje">
+                <p>MENSAJE</p>
+            </div>
+            <div class="texbox" >
+                <textarea id="mensajejs" ></textarea>
+
+            </div>
+
+            <div id="map"></div>
+            
+            <script src="Eformulario.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
+            <div class="submit">
+                <button type="button" onclick="captura()">ENVIAR</button>
+            </div>
+
+        </form>
+
+
+    </article>
+    
+    <footer>
+        <p id="preg">¿BUSCAS CLASES?</p></br>
+        <div id="contf">
+            </br><p>Contamos con:</p></br>
+            <p>- Maestros con experiencia</p></br>
+            <p>- Libros, útiles y herramientas</p></br>
+            <p>- Laboratorios para mayor enseñanza</p>
+        </div>
+        <div id="insta">
+            <img src="igmafiqui.png">
+            
+        </div>
+        <div id="face">
+            <img src="facemafiqui.png">
+            
+        </div>            
+        
+    </footer>
+
+
+
+
+</body>      

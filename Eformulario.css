@@ -1,0 +1,258 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:#d0d54a;
+
+}
+
+#contenedor {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9d253+0,bf9109+95 */
+    background: rgb(249,210,83); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(249,210,83,1) 0%, rgba(191,145,9,1) 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(249,210,83,1) 0%,rgba(191,145,9,1) 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(249,210,83,1) 0%,rgba(191,145,9,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d253', endColorstr='#bf9109',GradientType=0 ); /* IE6-9 */
+    padding:10px; /**relleno que le damos a la pagina**/
+  
+}
+
+#contenedor nav{
+    text-align: center;
+    margin-top: -6px;
+    margin-right: 15%;
+    list-style: none;
+
+}
+header img{
+    width:70px;
+    height:50px;
+    float: left;
+    padding: 2px;
+    margin-top: 5px;
+    margin-right: -5px;
+
+}
+
+header h1{
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    margin-left: 80px;
+}
+
+#contenedor a{
+    font-family:unset;
+    text-align: left;
+    font-size: 25px;
+    line-height:20px;
+    margin: 15px 15px;
+    text-decoration: none;
+    color:black;
+    
+       
+}
+
+#contenedor a:hover{
+   
+    background: rgb(253,237,185); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(253,237,185,1) 0%, rgba(249,221,137,1) 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(253,237,185,1) 0%,rgba(249,221,137,1) 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(253,237,185,1) 0%,rgba(249,221,137,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdedb9', endColorstr='#f9dd89',GradientType=0 ); /* IE6-9 */
+}
+
+article{
+    background:#f6f997;
+    width:1500px;
+    height:800px;
+    margin:auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+
+
+}
+
+article h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:65px;
+    text-align:center;
+    margin-top:3%;
+    
+}
+
+#nombre input{
+    width:400px;
+    height:40px;
+    position: relative;
+    left:12%;
+    top: 40px;
+}
+#nombre label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    position: relative;
+    left:12%;
+    top:35px;
+}
+
+#email input{
+    width:400px;
+    height:40px;
+    position: relative;
+    left:12%;
+    top:90px;
+}
+
+#email label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    position: relative;
+    left:12%;
+    top:85px;
+}
+
+#asunto input{
+    width:400px;
+    height:40px;
+    position: relative;
+    left:12%;
+    top: 135px;
+}
+
+#asunto label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    position: relative;
+    left:12%;
+    top:130px;
+}
+
+#ciudad select{
+    width:400px;
+    height:40px;
+    position: relative;
+    left:-174px;
+    top:200px
+    
+}
+
+#ciudad label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    position: relative;
+    left:12%;
+    top:170px;
+}
+
+
+.textbox{
+    display:flex;
+    flex-direction: column;
+    width:30rem;
+    margin: 0.75rem 0;
+}
+
+
+textarea{
+    font-size: 1.1rem;
+    max-width: 100%;
+    width:400px;
+    height:120px;
+    max-height:15rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    position: relative;
+    left:12%;
+    top: 235px;
+
+}
+
+#mensaje p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    position: relative;
+    left:12%;
+    top:230px;
+}
+
+#map{
+    height:600px;
+    width:700px;
+    position: relative;
+    left:45%;
+    top:-350px;
+}
+
+.submit button{
+    padding:8px;
+    height:40px;
+    width:70px;
+    position: relative;
+    left:12%;
+    top:-360px;
+
+}
+
+/**pie de pagina**/
+
+footer p{
+
+    font-family: arial;
+    color:white;
+    float: left;
+    margin-left: 38%;
+    
+           
+}
+
+footer{
+    max-width: 100%;
+    min-height: 130px;
+    background: #000;
+    margin: 0 auto;
+    padding: 30px;
+    border:white 5px solid;
+    border-radius: 5px;    
+}
+
+footer img{
+    float: left;
+    padding: 2px;
+    margin-top: -20px;
+    margin-right: -5px;
+
+}
+
+#insta img{
+    width:150px;
+    height:60px;
+    margin-top: -105px;
+    margin-left: 58px;
+
+
+}
+
+#face img{
+    width:150px;
+    height:60px;
+    margin-top: -40px;
+    margin-left: 58px;
+}
+
+#preg {
+    font-family: inherit;
+    font-size: 22px;
+}
+
+#contf{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
